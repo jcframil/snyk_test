@@ -44,4 +44,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: monitor
-          image: reiuqs/vsftpd
+          image: reiuqs/${{ steps.meta.outputs.labels }}:${{ steps.meta.outputs.tags }}
