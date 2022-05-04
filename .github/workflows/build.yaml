@@ -44,4 +44,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           image: reiuqs/snyk_test
-          args: --file=Dockerfile
+          args: --file=dockerfile
