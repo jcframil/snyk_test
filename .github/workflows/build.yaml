@@ -45,3 +45,4 @@ jobs:
         with:
           command: monitor
           image: ${{ steps.meta.outputs.tags }}
+          args: --severity-threshold=high
