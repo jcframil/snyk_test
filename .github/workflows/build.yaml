@@ -43,5 +43,4 @@ jobs:
           # or you can signup for free at https://snyk.io/login
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          image: reiuqs/snyk_test
-          args: --file=./Dockerfile
+          command: monitor
